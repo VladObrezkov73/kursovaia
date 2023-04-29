@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+body{
+	background:url(popcorn.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo{
+	font-family: "Lobster",sans-serif;
+	font-size:30px;
+
+}
+.menu-item_link{
+	font-family: "Lobster",sans-serif;
+	margin:10px;
+	color: black;
+	font-size: 16px;
+	background:;
+	border-radius: 1px;
+}
+.header{
+	background:#C00000;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-content: center;
+	align-items: center;
+}
+.title {
+	font-size: 50px;
+	line-height: 56px;	
+	color: #000;
+}
+.title span {
+	padding: 0 10px;
+	background: #3399ff;
+}
+
+.shadow-text{
+display: inline-block;
+  color: #f66223; /* Цвет  текста */
+  font-size: 1em; /* Размер  текста */
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #ffa000; /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+h2{
+	text-align: center;
+
+}
+.back{
+	font-family: fantasy;
+	background-color: black;
+	color: orange;
+	border:2px outset;
+}
+.registration-form {
+	color: black;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+	text-decoration:overline;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cc0000;
+}
+
+/*button[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #006F8F;
+}*/
+
+#Age {
+    display: none;
+}
+.old {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #F5F5F5;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.age18 {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.age [type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
+.age {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+.page-footer{
+	display: grid;
+	background-color: red;
+	margin-top: 15%;
+}
+.text-uppercase {
+	color: black;
+}
+.textinf{
+	color: black;
+}

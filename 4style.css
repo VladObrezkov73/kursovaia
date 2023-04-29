@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+body{
+	background:url(popcorn.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo{
+	font-family: "Lobster",sans-serif;
+	font-size:30px;
+
+}
+.menu-item_link{
+	font-family: "Lobster",sans-serif;
+	margin:10px;
+	color: black;
+	font-size: 16px;
+	background:;
+	border-radius: 1px;
+}
+.header{
+	background:#C00000;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-content: center;
+	align-items: center;
+}
+.title {
+	font-size: 50px;
+	line-height: 56px;	
+	color: #000;
+}
+.title span {
+	padding: 0 10px;
+	background: #3399ff;
+}
+
+.shadow-text{
+display: inline-block;
+  color: #f66223; /* Цвет  текста */
+  font-size: 1em; /* Размер  текста */
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #ffa000; /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+.back{
+	font-family: fantasy;
+	background-color: black;
+	color: orange;
+	border:2px outset;
+}
+h2{
+	text-align: center;
+	color: black;
+}
+h3{
+	color: black;
+}
+
+.about-us {
+	margin-top: 5%;
+	background:url(о_нас.jpg);
+  /*background-color: #3399ff;*/
+  padding: 80px 0;
+}
+
+.section-title {
+	border-radius: 3px;
+	background-color: white;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.section-description {
+	border-radius: 3px;
+	background-color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.about-title {
+	border-radius: 3px;
+	background-color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-description {
+	border-radius: 3px;
+	background-color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.page-footer{
+	display: grid;
+	margin-top: 20%;
+	background-color: red;
+}
+.text-uppercase {
+	color: black;
+}
+.textinf{
+	color: black;
+}

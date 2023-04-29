@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="2style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<title>Кино Афиша</title>
+</head>
+<header class="container header">
+	<h1 class="title">
+	<span class="logo"><b>КиноПортал</b></span>
+    </h1>
+	<div class="menu">
+
+		<a href="V:/курсовая ОВД/2index.html" class="menu-item_link"><b><p class="shadow-text">Кино афиша</p></b></a>
+		<a href="V:/курсовая ОВД/3index.html" class="menu-item_link"><b><p class="shadow-text">Билеты в кино</p></b></a>
+		<a href="V:/курсовая ОВД/4index.html" class="menu-item_link"><b><p class="shadow-text">О нас</p></b></a>
+<!-- возврат на предыдущую стр -->
+<input class="back" type="button" onclick="history.back();" value="Назад"/>
+
+	</div>
+</header>
+<body>
+
+<div class="afisha"><img class="inf" src="17.jpg" alt="КиноПортал"><p class="treiler">Жанр: биография, драма<br>
+Страна: Россия<br>
+Режиссёр: Николай Лебедев<br>
+Музыка: Эдуард Артемьев<br>
+Длительность: 134 мин.<br>
+<a href="https://www.youtube.com/watch?v=Vzhdg7AyMDY" target="_blank" class="obzor">Обзор фильма</a>
+</p><a href="3index.html"><p class="bilet">Билет на сеанс</p></a></div>
+<div class="afisha"><img class="inf" src="avatar.jpeg" alt="КиноПортал"><p class="treiler">
+Жанр: фантастика, боевик, драма, приключения<br>
+Страна: США<br>
+Режиссёр: Джеймс Кэмерон<br>
+Музыка: Джеймс Хорнер<br>
+Длительность: 162 мин.<br>
+<a href="https://www.youtube.com/watch?v=mdw8OS624Uk"target="_blank" class="obzor">Обзор фильма</a>
+</p><a href="3index.html"><p class="bilet">Билет на сеанс</p></a></div>
+<div class="afisha"><img class="inf" src="1+1.jpeg" alt="КиноПортал"><p class="treiler">Жанр: биография, комедия, драма<br>
+Страна: Франция<br>
+Режиссёры: Оливье Накаш, Эрик Толедано<br>
+Музыка: Людовико Эйнауди<br>
+Длительность: 112 мин.<br>
+<a href="https://www.youtube.com/watch?v=cXu2MhWYUuE"target="_blank" class="obzor">Обзор фильма</a>
+</p><a href="3index.html"><p class="bilet">Билет на сеанс</p></a></div>
+</body>
+
+<script src="script.js"></script>
+ <form action="index.html">
+ 	
+<button class="knopka" onclick="animateButton()">Главная страница</button></form>
+
+
+</script>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        
+        <p class="textinf">Сайт киноафиш предоставляет актуальную информацию о расписании кинопоказов в вашем городе.</p>
+
+      </div>
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        
+        <p class="textinf">Телефон горячей линии:8-902-222-33-11</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        
+        <p class="textinf">Никогда не пропустите премьеры и любимые фильмы благодаря нашему сервису.</p>
+
+      </div>
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        
+        <p class="textinf">Связь с нами :kinoportal73@mail.ru</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2023 :
+    <a href="#"> Kinoportal.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<style>
+.knopka{
+	color: white;
+	margin-left: 45%;
+	margin-bottom: 15%;
+}
+.animated {
+	background-color: black;
+  animation-name: bounce;
+  animation-duration: 0.1s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+</style>
+	
+</html>

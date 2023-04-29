@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+body{
+	background:url(popcorn.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+	font-family: "Lobster",sans-serif;
+	font-size:30px;
+
+}
+.container header{
+	width: 100%;
+}
+.menu-item_link{
+	font-family: "Lobster",sans-serif;
+	margin:10px;
+	color: black;
+	font-size: 16px;
+	background:;
+	border-radius: 1px;
+}
+.header{
+	background:#C00000;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-content: center;
+	align-items: center;
+}
+.title {
+	font-size: 50px;
+	line-height: 56px;	
+	color: #000;
+}
+.title span {
+	padding: 0 10px;
+	background: #3399ff;
+}
+.inf{
+	border:inset 5px;
+	border-radius: 10px;
+	margin-top: 5px;
+	height: 420px;
+	width: 320px;
+
+}
+.afisha{
+	float: left;
+	margin: 7%;
+	margin-left: 9%;
+}
+
+/*button{
+	font-family: Arial;
+background-color: red;
+cursor: pointer;
+ margin: 0 auto;
+ display: block;
+}*/
+.bilet {
+	text-align: center;
+	font-family: Arial;
+background-color: red;
+cursor: pointer;
+ margin: 0 auto;
+ display: block;
+    color: #3399ff; /* Цвет текста */
+    background: #f66223; /* Цвет фона */
+    padding: 0.5px; /* Поля вокруг текста */
+    transition: 0.5s linear; /* Время изменения */
+}
+.bilet:hover {
+    color: black; /* Цвет текста */
+    background: #f66d52; /* Цвет фона */
+}
+h2{
+	font-family: fantasy;
+	text-align: center;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+}
+
+/*footer{
+	display: fle;
+	text-align: center;
+	width: 100%;
+	background-color: red;
+	height: 5%;
+}*/
+.icon{
+height: 45px;
+width: 45px;
+
+}
+
+.social{
+	margin-top: 50px;
+	margin-left: 45%;
+}
+.shadow-text{
+	display: inline-block;
+  color: #f66223; /* Цвет  текста */
+  font-size: 2em; /* Размер  текста */
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #ffa000; /* цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+.top{
+	text-decoration: underline 1px;
+}
+.footer {
+	  color: #fff;
+  padding: 80px 0;
+}
+
+.footer-title {
+	color: black;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+.contact-list {
+	color: black;
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.fa {
+  margin-right: 10px;
+
+}
+.treiler{
+	margin-bottom: 43%;
+	justify-content: center;
+	text-align: center;
+	margin-left: 45%;
+	color:black;
+	font-family: fantasy;
+}
+.page-footer{
+	display: grid;
+	width: 100%;
+	margin-top: 85%;
+	background-color: red;
+}
+.text-uppercase {
+	color: black;
+}
+.textinf{
+	color: black;
+}
+.obzor{
+	border: 2px inset;
+	color: #3399ff;
+}
